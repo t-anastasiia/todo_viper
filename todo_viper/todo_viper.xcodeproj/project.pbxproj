@@ -33,7 +33,7 @@
 		31CBF5AD2D4DE25700A0D8EE /* Exceptions for "todo_viper" folder in "todo_viper" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
 			);
 			target = 31CBF5812D4DE25500A0D8EE /* todo_viper */;
 		};
@@ -291,7 +291,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S5A22857YR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = todo_viper/Info.plist;
+				INFOPLIST_FILE = todo_viper/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +319,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S5A22857YR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = todo_viper/Info.plist;
+				INFOPLIST_FILE = todo_viper/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
