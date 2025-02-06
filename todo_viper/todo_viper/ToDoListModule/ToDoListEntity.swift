@@ -11,9 +11,9 @@ import UIKit
 
 struct ToDoItem {
     let id: Int
-    let title: String
-    let description: String?
-    let isCompleted: Bool
+    var title: String
+    var description: String?
+    var isCompleted: Bool
     let createdAt: Date
 }
 

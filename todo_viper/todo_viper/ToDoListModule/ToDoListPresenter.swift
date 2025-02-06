@@ -32,6 +32,10 @@ extension ToDoListPresenter: ToDoListPresenterProtocol {
     }
     
     func didLoad(todoItems: [ToDoItem]?) {
-        <#code#>
+        if let items = todoItems {
+            view?.showToDoList(items)
+        } else {
+            print("no items")
+        }
     }
 }

@@ -26,10 +26,11 @@ class ToDoListInteractor: ToDoListInteractorProtocol {
     func loadTodoItems() {
         todoService.fetchTodoItems { [weak self] result in
             switch result {
-            case .success(let items):
+                case .success(let items):
+                    print("Fetched items:", items)
                     self?.presenter?.didLoad(todoItems: items)
-            case .failure(let error):
-                // TODO: добавить реализацию
+                case .failure(let error):
+                    print("Error fetching items:", error) 
             }
         }
     }
